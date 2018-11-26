@@ -1,5 +1,5 @@
 var React = require("react");
-var DefaultLayout = require("./layouts/layout");
+var DefaultLayout = require("./layouts/adminlayout");
 
 class HelloMessage extends React.Component {
   render() {

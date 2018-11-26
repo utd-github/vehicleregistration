@@ -21,6 +21,23 @@ class AdminLayout extends React.Component {
           <title>{this.props.title}</title>
         </head>
         <body className="bg-dark text-light">
+          <nav className="navbar navbar-dark bg-dark navbar-expand-lg ">
+            <a className="navbar-brand" href="/admin">
+              Vehicle Registration | ADMIN
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon" />
+            </button>
+          </nav>
+
           {this.props.children}
 
           <script

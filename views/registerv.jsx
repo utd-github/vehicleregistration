@@ -6,117 +6,116 @@ class IndexPage extends React.Component {
     return (
       <DefaultLayout title={this.props.title}>
         <div className="container">
-          <div className="row justify-content-center">
-            <form className="col-8">
-              <div className="form-row">
-                <div className="col-md-4 mb-3">
-                  <label htmlFor="validationServer01">First name</label>
-                  <input
-                    type="text"
-                    className="form-control is-valid"
-                    id="validationServer01"
-                    placeholder="First name"
-                    required
-                  />
-                  <div className="valid-feedback">Looks good!</div>
-                </div>
-                <div className="col-md-4 mb-3">
-                  <label htmlFor="validationServer02">Last name</label>
-                  <input
-                    type="text"
-                    className="form-control is-valid"
-                    id="validationServer02"
-                    placeholder="Last name"
-                    required
-                  />
-                  <div className="valid-feedback">Looks good!</div>
-                </div>
-                <div className="col-md-4 mb-3">
-                  <label htmlFor="validationServerUsername">Username</label>
-                  <div className="input-group">
-                    <div className="input-group-prepend">
-                      <span
-                        className="input-group-text"
-                        id="inputGroupPrepend3"
-                      >
-                        @
-                      </span>
+          <div className="row justify-content-center mt-5">
+            <div className="col-8 card bg-dark text-light">
+              <form className="card-body ">
+                <h3 className="card-title">Vehicle Registration Form</h3>
+                <div className="form-row">
+                  <div className="col-md-4 bordered">
+                    <img
+                      src="/images/person.png"
+                      className="rounded float-left img-thumbnail bg-dark"
+                      alt="Profile Image"
+                      width="200"
+                      height="200"
+                    />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="row">
+                      <div className="col-md-12 mb-3">
+                        <label htmlFor="validationServer01">Full name</label>
+                        <input
+                          type="text"
+                          className="form-control "
+                          id="validationServer01"
+                          placeholder="Full Name"
+                          required
+                        />
+                      </div>
+                      <div className="col-md-6 mb-3">
+                        <label htmlFor="validationServer02">Phone number</label>
+                        <input
+                          type="text"
+                          className="form-control "
+                          id="validationServer02"
+                          placeholder="Phone number"
+                          required
+                        />
+                      </div>
+                      <div className="col-md-6 mb-3">
+                        <label htmlFor="validationServer02">
+                          Email Address
+                        </label>
+                        <input
+                          type="text"
+                          className="form-control "
+                          id="validationServer02"
+                          placeholder="Email Address"
+                          required
+                        />
+                      </div>
+                      <div className="col-md-8 mb-3 ml-3 mr-3">
+                        <input
+                          type="file"
+                          className="custom-file-input form-control "
+                          id="customFile"
+                        />
+                        <label
+                          className="custom-file-label"
+                          htmlFor="customFile"
+                        >
+                          Choose file
+                        </label>
+                      </div>
                     </div>
+                  </div>
+                </div>
+                <div className="form-row mt-2 ">
+                  <div className="col-md-4 mb-3">
+                    <label htmlFor="validationServer03">City</label>
                     <input
                       type="text"
-                      className="form-control is-invalid"
-                      id="validationServerUsername"
-                      placeholder="Username"
-                      aria-describedby="inputGroupPrepend3"
+                      className="form-control "
+                      id="validationServer03"
+                      placeholder="City"
                       required
                     />
-                    <div className="invalid-feedback">
-                      Please choose a username.
-                    </div>
+                  </div>
+                  <div className="col-md-4 mb-3">
+                    <label htmlFor="validationServer04">State</label>
+                    <input
+                      type="text"
+                      className="form-control "
+                      id="validationServer04"
+                      placeholder="State"
+                      required
+                    />
+                  </div>
+                  <div className="col-md-4 mb-3">
+                    <label htmlFor="validationServer05">
+                      Vehicle Plate Number
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control "
+                      id="validationServer05"
+                      placeholder="Vehicle Plate Number"
+                      required
+                    />
                   </div>
                 </div>
-              </div>
-              <div className="form-row">
-                <div className="col-md-6 mb-3">
-                  <label htmlFor="validationServer03">City</label>
-                  <input
-                    type="text"
-                    className="form-control is-invalid"
-                    id="validationServer03"
-                    placeholder="City"
-                    required
-                  />
-                  <div className="invalid-feedback">
-                    Please provide a valid city.
-                  </div>
-                </div>
-                <div className="col-md-3 mb-3">
-                  <label htmlFor="validationServer04">State</label>
-                  <input
-                    type="text"
-                    className="form-control is-invalid"
-                    id="validationServer04"
-                    placeholder="State"
-                    required
-                  />
-                  <div className="invalid-feedback">
-                    Please provide a valid state.
-                  </div>
-                </div>
-                <div className="col-md-3 mb-3">
-                  <label htmlFor="validationServer05">Zip</label>
-                  <input
-                    type="text"
-                    className="form-control is-invalid"
-                    id="validationServer05"
-                    placeholder="Zip"
-                    required
-                  />
-                  <div className="invalid-feedback">
-                    Please provide a valid zip.
-                  </div>
-                </div>
-              </div>
-              <div className="form-group">
-                <div className="form-check">
-                  <input
-                    className="form-check-input is-invalid"
-                    type="checkbox"
-                    id="invalidCheck3"
-                    required
-                  />
-                  <label className="form-check-label" htmlFor="invalidCheck3">
-                    Agree to terms and conditions
-                  </label>
-                  <div className="invalid-feedback">
-                    You must agree before submitting.
-                  </div>
-                </div>
-              </div>
-              <button className="btn btn-primary" type="submit">
-                Submit form
-              </button>
-            </form>
+
+                <a className="btn btn-danger ml-2 float-right mt-2" href="/">
+                  Cancel
+                </a>
+                <button
+                  className="btn btn-primary float-right mt-2"
+                  type="submit"
+                >
+                  Submit form
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </DefaultLayout>

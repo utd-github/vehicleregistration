@@ -24,8 +24,8 @@ class IndexPage extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className="col-10 ">
-              <div className="row mt-5 justify-content-end">
+            <div className="col-10">
+              <div className="row justify-content-end">
                 <div className="col-4">
                   <form className="form-inline">
                     <input
@@ -43,70 +43,194 @@ class IndexPage extends React.Component {
                   </form>
                 </div>
               </div>
-              <div className="row mt-5 ">
-                <div className="col-12">
-                  <table className="table table-hover">
+              <div className="row mt-3">
+                <div className="col-12" style={{ minHeight: 500 }}>
+                  <table className="table table-hover table-bordered table-dark">
                     <thead className="thead-dark">
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">Full name</th>
+                        <th scope="col">Phone Number</th>
+                        <th scope="col">Plate Number</th>
+                        <th scope="col">Action</th>
                       </tr>
                     </thead>
+
                     <tbody>
                       <tr>
                         <th scope="row">1</th>
                         <td>Mark</td>
-                        <td>Otto</td>
+                        <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
                       </tr>
                       <tr>
                         <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Mark</td>
+                        <td>+25290xxxxxxx</td>
+                        <td>@mdo</td>
+                        <td>
+                          <button className="btn btn-primary">Edit</button>
+                          <button className="btn btn-danger ml-2">
+                            Delete
+                          </button>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
 
-                  <nav aria-label="..." className="bg-dark text-light">
-                    <ul className="pagination justify-content-center ">
-                      <li className="page-item">
-                        <a className="page-link" href="#" aria-label="Previous">
-                          <span aria-hidden="true">&laquo;</span>
-                          <span className="sr-only">Previous</span>
-                        </a>
-                      </li>
-                      <li className="page-item">
-                        <a className="page-link" href="#">
-                          1
-                        </a>
-                      </li>
-                      <li className="page-item">
-                        <a className="page-link" href="#">
-                          2
-                        </a>
-                      </li>
-                      <li className="page-item">
-                        <a className="page-link" href="#">
-                          3
-                        </a>
-                      </li>
-                      <li className="page-item">
-                        <a className="page-link" href="#" aria-label="Next">
-                          <span aria-hidden="true">&raquo;</span>
-                          <span className="sr-only">Next</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
+                  <div className="row justify-content-center">
+                    <div className="col-4">
+                      <nav aria-label="..." className="bg-dark text-light">
+                        <ul className="pagination justify-content-center ">
+                          <li className="page-item">
+                            <a
+                              className="page-link"
+                              href="#"
+                              aria-label="Previous"
+                            >
+                              <span aria-hidden="true">&laquo;</span>
+                              <span className="sr-only">Previous</span>
+                            </a>
+                          </li>
+                          <li className="page-item">
+                            <a className="page-link" href="#">
+                              1
+                            </a>
+                          </li>
+                          <li className="page-item">
+                            <a className="page-link" href="#">
+                              2
+                            </a>
+                          </li>
+                          <li className="page-item">
+                            <a className="page-link" href="#">
+                              3
+                            </a>
+                          </li>
+                          <li className="page-item">
+                            <a className="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                              <span className="sr-only">Next</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
