@@ -9,7 +9,7 @@ class IndexPage extends React.Component {
           <div className="row">
             <div
               className="col-2 mt-5 card bg-dark text-dark"
-              style={{ height: 550 }}
+              style={{ height: 550, padding: "0 !important" }}
             >
               <ul className="nav flex-column card-body ">
                 <li className="nav-item">
@@ -19,13 +19,13 @@ class IndexPage extends React.Component {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/register">
-                    Register
+                    Register Vehicle
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-10">
-              <div className="row justify-content-end">
+              <div className="row justify-content-end mt-3">
                 <div className="col-4">
                   <form className="form-inline">
                     <input
@@ -63,7 +63,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -75,7 +77,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -87,7 +91,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -99,7 +105,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -111,7 +119,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -123,7 +133,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -135,7 +147,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -147,7 +161,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -159,7 +175,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -171,7 +189,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -183,7 +203,9 @@ class IndexPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/register/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>

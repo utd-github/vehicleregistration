@@ -20,8 +20,8 @@ class DefaultLayout extends React.Component {
 
           <title>{this.props.title}</title>
         </head>
-        <body className="bg-dark text-light">
-          <nav className="navbar navbar-dark bg-dark navbar-expand-lg ">
+        <body>
+          <nav className="navbar navbar-dark bg-primary navbar-expand-lg ">
             <a className="navbar-brand" href="/">
               Vehicle Registration
             </a>

@@ -21,7 +21,7 @@ class AdminLayout extends React.Component {
           <title>{this.props.title}</title>
         </head>
         <body className="bg-dark text-light">
-          <nav className="navbar navbar-dark bg-dark navbar-expand-lg ">
+          <nav className="navbar navbar-dark bg-info navbar-expand-lg ">
             <a className="navbar-brand" href="/admin">
               Vehicle Registration | ADMIN
             </a>

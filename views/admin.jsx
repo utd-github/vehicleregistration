@@ -7,22 +7,25 @@ class AdminPage extends React.Component {
       <DefaultLayout title={this.props.title}>
         <div className="container">
           <div className="row">
-            <div className="col-2 mt-5 card" style={{ height: 550 }}>
+            <div
+              className="col-2 mt-5 card "
+              style={{ height: 550, padding: "0 !important" }}
+            >
               <ul className="nav flex-column card-body ">
                 <li className="nav-item">
-                  <a className="nav-link active" href="/">
+                  <a className="nav-link active" href="/admin">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/register">
-                    Register
+                  <a className="nav-link" href="/admin/new">
+                    New Account
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-10">
-              <div className="row justify-content-end">
+              <div className="row justify-content-end mt-3">
                 <div className="col-4">
                   <form className="form-inline">
                     <input
@@ -60,7 +63,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -72,7 +77,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/2" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -84,7 +91,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/3" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -96,7 +105,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -108,7 +119,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -120,7 +133,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -132,7 +147,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -144,7 +161,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -156,7 +175,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -168,7 +189,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
@@ -180,7 +203,9 @@ class AdminPage extends React.Component {
                         <td>+25290xxxxxxx</td>
                         <td>@mdo</td>
                         <td>
-                          <button className="btn btn-primary">Edit</button>
+                          <a href="/admin/new/1" className="btn btn-primary">
+                            Edit
+                          </a>
                           <button className="btn btn-danger ml-2">
                             Delete
                           </button>
