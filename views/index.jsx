@@ -222,7 +222,7 @@ class IndexPage extends React.Component {
 
                   <div className="row justify-content-center">
                     <div className="col-4">
-                      <nav aria-label="..." className="bg-dark text-light">
+                      <nav aria-label="..." className="">
                         <ul className="pagination justify-content-center ">
                           <li className="page-item">
                             <a
