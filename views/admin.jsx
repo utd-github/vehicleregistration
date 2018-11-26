@@ -7,19 +7,16 @@ class AdminPage extends React.Component {
       <DefaultLayout title={this.props.title}>
         <div className="container">
           <div className="row">
-            <div
-              className="col-2 card bg-dark text-dark"
-              style={{ height: 550, padding: "0 !important" }}
-            >
+            <div className="col-2 mt-5 card" style={{ height: 550 }}>
               <ul className="nav flex-column card-body ">
                 <li className="nav-item">
-                  <a className="nav-link active" href="/admin">
+                  <a className="nav-link active" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/admin/new">
-                    New Account
+                  <a className="nav-link" href="/register">
+                    Register
                   </a>
                 </li>
               </ul>
@@ -44,8 +41,8 @@ class AdminPage extends React.Component {
                 </div>
               </div>
               <div className="row mt-3">
-                <div className="col-12" style={{ minHeight: 500 }}>
-                  <table className="table table-hover clickable">
+                <div className="col-12 " style={{ minHeight: 500 }}>
+                  <table className="table table-hover table-bordered bg-light text-dark">
                     <thead className="thead-dark">
                       <tr>
                         <th scope="col">#</th>
