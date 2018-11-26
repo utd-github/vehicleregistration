@@ -8,17 +8,23 @@ class IndexPage extends React.Component {
         <div className="container">
           <div className="row">
             <div
-              className="col-2 mt-5 card bg-dark text-dark"
+              className="col-2 mt-5 card bg-primary text-dark"
               style={{ height: 550, padding: "0 !important" }}
             >
-              <ul className="nav flex-column card-body ">
+              <ul className="nav  flex-column card-body mt-5">
                 <li className="nav-item">
-                  <a className="nav-link active" href="/">
+                  <a
+                    className="nav-link border border-light text-white btn "
+                    href="/"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/register">
+                  <a
+                    className="nav-link border border-light text-white btn mt-2"
+                    href="/register"
+                  >
                     Register Vehicle
                   </a>
                 </li>
@@ -45,8 +51,8 @@ class IndexPage extends React.Component {
               </div>
               <div className="row mt-3">
                 <div className="col-12 " style={{ minHeight: 500 }}>
-                  <table className="table table-hover table-bordered bg-light text-dark">
-                    <thead className="thead-dark">
+                  <table className="table table-hover table-bordered table-dark">
+                    <thead className="thead-light text-white">
                       <tr>
                         <th scope="col">#</th>
                         <th scope="col">Full name</th>

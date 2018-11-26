@@ -8,17 +8,23 @@ class AdminPage extends React.Component {
         <div className="container">
           <div className="row">
             <div
-              className="col-2 mt-5 card "
+              className="col-2 mt-5 card bg-info"
               style={{ height: 550, padding: "0 !important" }}
             >
-              <ul className="nav flex-column card-body ">
+              <ul className="nav flex-column card-body mt-5">
                 <li className="nav-item">
-                  <a className="nav-link active" href="/admin">
+                  <a
+                    className="nav-link border border-light btn text-white "
+                    href="/admin"
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/admin/new">
+                  <a
+                    className="nav-link btn text-white  border border-light mt-2"
+                    href="/admin/new"
+                  >
                     New Account
                   </a>
                 </li>
